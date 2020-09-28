@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="false"
+    android:background="@drawable/marcianito1"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:onClick="mostrar"
+        android:text="@string/button"
+        android:textAllCaps="true"
+        android:translationY="50dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/bienvenida"
+        android:textColor="#010101"
+        android:textSize="36sp"
+        android:translationY="10dp" />
+
+    <TextView
+        android:id="@+id/hola"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/saludo"
+        android:textAllCaps="true"
+        android:textColor="#171515"
+        android:textSize="30sp"
+        android:translationY="90dp"
+        android:visibility="invisible" />
+
+</RelativeLayout>

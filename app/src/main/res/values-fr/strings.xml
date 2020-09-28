@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Multilingue</string>
+    <string name="bienvenida">Bienvenue</string>
+    <string name="descripcion">marcianito</string>
+    <string name="button">Appuyez pour dire bonjour!</string>
+    <string name="saludo">Salut monde!</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/marcianito1"
+    android:paddingBottom="90dp"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/bienvenida"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:translationY="0dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:onClick="mostrar"
+        android:text="@string/button"
+        android:textAllCaps="true"
+        android:translationY="40dp" />
+
+    <TextView
+        android:id="@+id/hola"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/saludo"
+        android:textAllCaps="true"
+        android:textColor="#FEFEFE"
+        android:textSize="24sp"
+        android:translationY="80dp"
+        android:visibility="invisible" />
+</RelativeLayout>

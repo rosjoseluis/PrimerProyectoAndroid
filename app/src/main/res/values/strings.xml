@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Multilenguajes</string>
+    <string name="bienvenida">Bienvenido</string>
+    <string name="descripcion">marcianito</string>
+    <string name="button">Presiona para saludar!</string>
+    <string name="saludo">Hola Mundo!</string>
+</resources>
